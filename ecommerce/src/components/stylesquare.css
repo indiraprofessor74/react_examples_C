@@ -1,0 +1,19 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid blue ;
+    border-radius: 40%;
+    animation-name: animateSquare;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animateSquare {
+    from
+    {
+        transform: rotate(0deg)  scale(1);
+    }
+   to{
+        transform: rotate(360deg)  scale(3);
+   }
+}
